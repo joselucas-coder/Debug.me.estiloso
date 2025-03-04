@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.navtop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.navtop a {
+  margin-top: 20px;
+  font-size: 19px;
+  all: unset;
+}
+
+.navtop a.debugnav {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.autenticacao {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin-top: 5px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.funcionalidades {
+  display: flex;
+  gap: 120px;
+  align-items: baseline;
+  font-size: 20px;
+}
+
+.blococentral {
+  display: flex;
+  width: 1420px;
+  height: 600px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+  color: white;
+  flex-direction: column;
+}
+
+.blococentral h1.textocentral {
+  font-size: 80px;
+  margin-left: 60px;
+  margin-top: 90px;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 500;
+}
+
+.blococentral p.subcentral {
+  font-size: 35px;
+  margin-left: 90px;
+  margin-top: 90px;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 400;
+}
+
+.infos {
+  display: flex;
+  width: 550px;
+  height: 330px;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+  color: white;
+  flex-direction: column;
+}
+
+.infos h1 {
+  margin: 20px;
+  color: white;
+  margin-top: 20px;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 600;
+}
+
+.infos p {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 400;
+}
